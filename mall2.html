@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minl mall</title>
+    <style>
+        body{
+            background-color: #2F4F4F;
+        }
+        p{
+            text-align: center;
+            padding-top: 60px;
+        }
+        ul{
+            list-style: none;
+            padding-inline-start: 0px;
+            height: 300px;
+            
+        }
+        li{
+            border-radius: 4px;
+            display: table;
+            background-color: white;
+            width: 350px;
+            height: 50px;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        .secondImg{ 
+            
+            max-height: 10%;
+            margin: 5px;
+        }
+        .box{
+            padding : 7px;
+            margin: 3px;
+        }
+        
+        .item-img{
+            display: table-cell;
+            vertical-align: middle;
+            margin: 0 auto;
+            text-align: center;
+            width: 20%;
+        }
+        .item-text{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: left;    
+        }
+        
+        .main{
+            width : 350px;
+            overflow: hidden;
+            margin: auto;
+        }
+        .contents{
+            width: 380px;
+            height: 100%;
+            overflow-y: scroll;
+        }
+    
+    </style>
+</head>
+<body>
+    <p>
+        <img src="imgs/logo.png" alt="미니몰">
+    </p>
+
+    <center>
+    <table>
+        <tr>
+            <td><img id="T" class="secondImg" src="imgs/blue_t.png" alt="상의" height="45"></td>
+            <td><img class="secondImg" src="imgs/blue_p.png" alt="바지" height="45"></td>
+            <td><img class="secondImg" src="imgs/blue_s.png" alt="치마" height="45"></td>
+            <td><a class="box" style="background-color: blue;">Blue</a></td>
+            <td><a class="box" style="background-color: yellow;">Yellow</a></td>
+            <td><a class="box" style="background-color: pink;">Pink</a></td>
+        </tr>
+    </table>
+    </center>
+    
+    <div class="main">
+        <div class="contents">
+            <ul id="contentsList">
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/blue_t.png" alt="상의" height="35">
+                    </div>
+                    <a class="item-text">male,small size</a>
+                </li>
+        
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/blue_p.png" alt="바지" height="35">
+                    </div>
+                    <a class="item-text">man,small size</a> 
+                </li>
+
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/pink_p.png" alt="바지" height="35">
+                    </div>
+                    <a class="item-text">female,small size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/yellow_t.png" alt="상의" height="35">
+                    </div>
+                    <a class="item-text">male,large size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/yellow_p.png" alt="바지" height="35">
+                    </div>
+                    <a class="item-text">man,large size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/blue_s.png" alt="치마" height="35">
+                    </div>
+                    <a class="item-text">female,small size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/pink_s.png" alt="치마" height="35">
+                    </div>
+                    <a class="item-text">female,large size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/pink_t.png" alt="상의" height="35">
+                    </div>
+                    <a class="item-text">female,large size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/blue_t.png" alt="상의" height="35">
+                    </div>
+                    <a class="item-text">male,large size</a>
+                </li>
+        
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/blue_p.png" alt="바지" height="35">
+                    </div>
+                    <a class="item-text">man,small size</a> 
+                </li>
+
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/pink_p.png" alt="바지" height="35">
+                    </div>
+                    <a class="item-text">female,large size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/yellow_t.png" alt="상의" height="35">
+                    </div>
+                    <a class="item-text">male,small size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/yellow_p.png" alt="바지" height="35">
+                    </div>
+                    <a class="item-text">man,small size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/blue_s.png" alt="치마" height="35">
+                    </div>
+                    <a class="item-text">female,small size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/pink_s.png" alt="치마" height="35">
+                    </div>
+                    <a class="item-text">female,small size</a> 
+                </li>
+                <li>
+                    <div class="item-img">
+                        <img src="imgs/pink_t.png" alt="상의" height="35">
+                    </div>
+                    <a class="item-text">female,large size</a> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script>
+        $('.secondImg').on('click',function(){
+            console.log('클릭', $(this).attr('alt'));
+            $('#contentsList').empty();
+            
+            console.log('삭제');
+            contentsListT($(this).attr('alt'));
+        })
+
+        $('.box').on('click',function(){
+            console.log('클릭', $(this).text());
+            $('#contentsList').empty();
+            
+            console.log('삭제');
+            contentsListI($(this).text().toLowerCase());
+        })
+
+
+
+        let sendData = [
+            {
+                imgSrc: 'blue_p',
+                imgAlt: '바지',
+                imgTxt: 'man, small size',
+            },
+            {
+                imgSrc: 'blue_p',
+                imgAlt: '바지',
+                imgTxt: 'man, large size'
+            },
+            {
+                imgSrc: 'blue_t',
+                imgAlt: '상의',
+                imgTxt: 'man, small size'
+            },
+            {
+                imgSrc: 'blue_t',
+                imgAlt: '상의',
+                imgTxt: 'man, large size'
+            },
+            {
+                imgSrc: 'blue_s',
+                imgAlt: '치마',
+                imgTxt: 'female, small size',
+            },
+            {
+                imgSrc: 'blue_s',
+                imgAlt: '치마',
+                imgTxt: 'female, large size'
+            },
+            {
+                imgSrc: 'pink_p',
+                imgAlt: '바지',
+                imgTxt: 'female, small size',
+            },
+            {
+                imgSrc: 'pink_p',
+                imgAlt: '바지',
+                imgTxt: 'female, large size'
+            },
+            {
+                imgSrc: 'pink_t',
+                imgAlt: '상의',
+                imgTxt: 'female, small size'
+            },
+            {
+                imgSrc: 'pink_t',
+                imgAlt: '상의',
+                imgTxt: 'female, large size'
+            },
+            {
+                imgSrc: 'pink_s',
+                imgAlt: '치마',
+                imgTxt: 'female, small size',
+            },
+            {
+                imgSrc: 'pink_s',
+                imgAlt: '치마',
+                imgTxt: 'female, large size'
+            },
+            {
+                imgSrc: 'yellow_p',
+                imgAlt: '바지',
+                imgTxt: 'man, small size',
+            },
+            {
+                imgSrc: 'yellow_p',
+                imgAlt: '바지',
+                imgTxt: 'man, large size'
+            },
+            {
+                imgSrc: 'yellow_t',
+                imgAlt: '상의',
+                imgTxt: 'man, small size'
+            },
+            {
+                imgSrc: 'yellow_t',
+                imgAlt: '상의',
+                imgTxt: 'man, large size'
+            },
+            {
+                imgSrc: 'yellow_s',
+                imgAlt: '치마',
+                imgTxt: 'female, small size',
+            },
+            {
+                imgSrc: 'yellow_s',
+                imgAlt: '치마',
+                imgTxt: 'female, large size'
+            }
+        ]
+
+        function contentsListT(gubn) {
+            console.log('이거?', gubn)
+            let html = '';
+            for (let i=0; i < 18; i++){
+                if (sendData[i].imgAlt == gubn) {
+                    html += '<li> <div class="item-img"> <img src="imgs/'+ sendData[i].imgSrc +'.png" alt="'+sendData[i].imgAlt+'" height="35"> </div> <a class="item-text">'+sendData[i].imgTxt+'</a> </li>';
+                }
+            }
+        $('#contentsList').append(html);
+        }
+
+        function contentsListI(gubn) {
+            console.log('호호', gubn)
+            let html = '';
+            for (let i=0; i < 18; i++){
+                if (sendData[i].imgSrc.indexOf(gubn) != -1 ) {
+                    html += '<li> <div class="item-img"> <img src="imgs/'+ sendData[i].imgSrc +'.png" alt="'+sendData[i].imgAlt+'" height="35"> </div> <a class="item-text">'+sendData[i].imgTxt+'</a> </li>';
+                }
+            }
+        $('#contentsList').append(html);
+        }
+
+                
+        
+    </script>
+    
+</body>
+</html>
