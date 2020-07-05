@@ -13,4 +13,7 @@
 ![mini](./imgs/main.PNG)  
 
 # 옷의 종류별로 리스트 구현   
+![mini](./imgs/kinds.PNG)   
+
 # 옷의 색상별로 리스트 구현   
+![mini](./imgs/color.PNG) 
